@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - ZHTest (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - ZHTest (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  ZHTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  ZHTest: 50d08c10d7ccd1932e4d289d8d153ba05abc7cc3
+
+PODFILE CHECKSUM: 89d4c1dc715ea92355d652ba44e27b8d684a9366
+
+COCOAPODS: 1.9.3
